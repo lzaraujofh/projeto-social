@@ -37,3 +37,21 @@ iframe#tela {
     width: 269px;
     height: 471px;
 }
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img { /* ou section#redes-sociais a img {  */
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
+    box-sizing: border-box;  /* a borda vai fazer parte da caixa */
+}
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.658);
+    transform: translate(-1px, -1px); /* Faz uma animadazinha no botão  */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.575); /* Faz uma animadazinha na sombra  */
+    transition: transform .3s border 1s; /* Faz uma animadazinha no deslocamento do botão  */
+}
